@@ -1,6 +1,7 @@
 # Integrated Velocity Readiness (IVR) Score
 
 *A first-principles metric for rapid, capital-efficient hardware scaling.*
+📄 [Download the full whitepaper](./Integrated_Velocity_Readiness_Whitepaper.pdf)
 
 ---
 
@@ -104,7 +105,7 @@ You **may not change the metric’s core definition without attribution** — pl
 
 ## 📜 License
 
-Creative Commons **Attribution 4.0 International (CC BY 4.0)**  
+MIT License — see the [LICENSE](LICENSE) file for details.
 You can share and adapt with proper credit.
 
 ---
