@@ -57,24 +57,15 @@ This forces teams to raise their **weakest link** while rewarding rapid, capital
 |7|System proven in operational setting.|Pilot line, early QMS.|Contracts & market route validated.|
 |9|Full maturity & integration.|Full-rate stable production.|Business model scaled & efficient.|
 
-2. **Compute static readiness:**
+2. **Compute static readiness:**  
+`IVR_Maturity = min(TC, PS, CV)`
 
-\[
-\mathrm{IVR\_Maturity} = \min(TC, PS, CV)
-\]
+3. **Compute velocity factor:**  
+`Vf = Δ levels advanced / (capital spent × months)`
 
-3. **Compute velocity factor:**
-
-\[
-V_f = \frac{\Delta \text{levels advanced}}{\$\,\text{spent} \times \text{months}}
-\]
-
-4. **Calculate final score:**
-
-\[
-\mathrm{IVR} = \mathrm{IVR\_Maturity} \times (1+V_f)
-\]
-
+4. **Calculate final score:**  
+`IVR = IVR_Maturity × (1 + Vf)`
+ 
 5. **Interpret:**  
    - Low IVR\_Maturity → find the bottleneck axis.  
    - Low \(V_f\) → you’re advancing slowly or burning too much capital.
